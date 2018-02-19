@@ -1,0 +1,102 @@
+.font-sf {
+    font-family: sans-serif;
+}
+
+/* buttons */
+
+    .btn-numero-calc {
+        background-color: #fff;
+        border: 1px solid #fff;
+    }
+
+    .btn-calc {
+        width: 20%;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .btn-lg {
+        width: 64%;
+    }
+
+    .btn-md {
+        width: 42%;
+    }
+
+    .btn-limpar {
+        background-color: #ff7534 !important;
+        border: 1px solid #f15811 !important;
+        margin: 10px !important;
+        font-size: 20px !important;
+    }
+
+    .btn-resultado {
+        background-color: #54acce !important;
+        border: 1px solid #2b718c !important;
+    }
+/* ----------------------------------------------------- */
+
+/* form calculadora */
+    .border-limit-form {
+        border: 3px solid #0f1d94;
+        margin: 100px 35%;
+        padding: 20px;
+        background-color: #e0dede;
+    }
+
+    .total {
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+
+    .div-btn-calc {
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .ipt-conta {
+        /* color: #827c7c; */
+        color: #000;
+        background-color: transparent;
+        border: transparent;
+        width: 80%;
+        margin: 10px;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+
+    .ipt-numero {
+        border: 2px solid #000;
+        width: 80%;
+        margin: 10px;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+/* ----------------------------------------------------- */
+
+/* div como utilizar */
+
+    .border-utilizar {
+        border: 3px solid #3aff22;
+        margin: 30px 35%;
+        padding: 10px;
+    }
+
+    .border-list {
+        margin: 5px;
+        border: 1px solid #000000;
+    }
+
+    .item-list {
+        margin: 10px 0px 10px 0px;
+    }
+
+    .item-attention {
+        font-weight: 800;
+        color: red;
+    }
+
+/* ----------------------------------------------------- */
+
+

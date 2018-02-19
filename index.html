@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PURO</title>
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+
+<body class="font-sf">
+    <div align="middle">
+
+        <div class="border-limit-form">
+            <form action="">
+                <input id="ipt-conta" class="ipt-conta" type="text" readonly style="text-align: right">
+                <br>
+                <input id="ipt-numero" class="ipt-numero" value="0" type="number" style="text-align: right">
+                <div class="div-btn-calc">
+                    <button class="btn-calc btn-lg" id="btn-limpar" type="button">Limpar</button>
+                    <button class="btn-calc" id="btn-dividir" type="button">/</button>
+                </div>
+                <div class="div-btn-calc">
+                    <button class="btn-calc btn-numero-calc" id="btn-7" type="button" onclick="definirValor(7)">7</button>
+                    <button class="btn-calc btn-numero-calc" id="btn-8" type="button" onclick="definirValor(8)">8</button>
+                    <button class="btn-calc btn-numero-calc" id="btn-9" type="button" onclick="definirValor(9)">9</button>
+                    <button class="btn-calc" id="btn-multiplicar" type="button">X</button>
+                </div>
+                <div class="div-btn-calc">
+                    <button class="btn-calc btn-numero-calc" id="btn-4" type="button" onclick="definirValor(4)">4</button>
+                    <button class="btn-calc btn-numero-calc" id="btn-5" type="button" onclick="definirValor(5)">5</button>
+                    <button class="btn-calc btn-numero-calc" id="btn-6" type="button" onclick="definirValor(6)">6</button>
+                    <button class="btn-calc" id="btn-subtrair" type="button">-</button>
+                </div>
+                <div class="div-btn-calc">
+                    <button class="btn-calc btn-numero-calc" id="btn-1" type="button" onclick="definirValor(1)">1</button>
+                    <button class="btn-calc btn-numero-calc" id="btn-2" type="button" onclick="definirValor(2)">2</button>
+                    <button class="btn-calc btn-numero-calc" id="btn-3" type="button" onclick="definirValor(3)">3</button>
+                    <button class="btn-calc" id="btn-somar" type="button">+</button>
+                </div>
+                <div class="div-btn-calc">
+                    <!-- <button class="btn-calc" id="btn-teste" type="button" disabled>-</button> -->
+                    <button class="btn-calc btn-md btn-numero-calc" id="btn-0" type="button" onclick="definirValor(0)">0</button>
+                    <button class="btn-calc btn-md btn-resultado" id="btn-resultado" type="button">=</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- <div class="border-utilizar">
+            <h3 class="total">Como utilizar?</h3>
+            <ol class="border-list">
+                <li class="item-list">
+                    Informe o número no campo de borda preta.
+                </li>
+                <li class="item-list">
+                    Selecione o tipo de operação.
+                </li>
+                <li class="item-list">
+                    Informe o próximo número.
+                </li>
+                <li class="item-list">
+                    Clique no botão azul para o ver o resultado.
+                </li>
+            </ol>
+        </div> -->
+
+    </div>
+</body>
+
+</html>
+<script src="js/main.js"></script>
